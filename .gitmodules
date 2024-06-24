@@ -1,0 +1,7 @@
+[submodule "colonelkernel.github.io/themes/nightfall"]
+	path = colonelkernel.github.io/themes/nightfall
+	url = https://github.com/LordMathis/hugo-theme-nightfall
+[submodule "entropiclegos.github.io/public"]
+	path = entropiclegos.github.io/public
+	url = https://github.com/susmit31/entropiclegos.github.io
+	branch = master
