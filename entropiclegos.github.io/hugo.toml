@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://susmit31.github.io/entropic-legos'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Entropic Legos'
 theme = 'nightfall'
