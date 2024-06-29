@@ -2,7 +2,7 @@
 title = 'Writing a Simple UNIX-like Shell in Zig'
 date = 2024-06-24T23:36:33+06:00
 tags = ["programming", "zig", "computer-science"]
-series = ["Zig tutorials"]
+series = ["Zig programming"]
 +++
 This is the first in (hopefully) a series of posts I intend to make about stuff I try out in the _Zig_ programming language. After having been exposed to it for around 5 days, I've started to develop a sort-of love-hate relationship with the language. The syntax, in general, feels great to me. It's low-level, compiled, fast. But on the other hand, the documentation, especially that of the [standard library](https://ziglang.org/documentation/master/std/), is horrendous - virtually nonexistent, apart from a cryptic comment for every function, struct or whatever. Existing tutorials are often out-of-date owing to the fact that the language is still hasn't had a full 1.x release, and "old" unwanted features are apparently being dropped by the devs every now and then.  
 
