@@ -1,6 +1,7 @@
 +++
 title = 'Mind Theory Update'
 date = 2025-02-17T23:40:49+06:00
+draft = false
 +++
 ## The Consciousness Conundrum
 I've been gone from the blog for months. In the meantime, my country has witnessed a successful overthrowing of a tyrant called Sheikh Hasina, among other things. The last time I posted it was about _the Zig programming language_ and about _Plato's Republic_. Because I have the attention span of a little child, I've obviously still _not finished_ learning Zig, nor have I finished going through _The Republic_. I've been bouncing from one interest to another like a pinball in a pinball machine - from working with Arduino and ESP32 to building raw logic gates with transistors on a breadboard, from Plato to Wittgenstein, from Hodgkin-Huxley to Hopfield, and from graph theory to category theory - I've been exploring quite a vast terrain over these past months. And as rare as this may be, I for the first time in my life feel that I'm finding a common thread running through all my interests. And it's the consciousness conundrum.
