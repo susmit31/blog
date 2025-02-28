@@ -2,3 +2,19 @@ baseURL = 'https://susmit31.github.io/entropic-legos'
 languageCode = 'en-us'
 title = 'Entropic Legos'
 theme = 'nightfall'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[params]
+user = "entropic-legos"
+hostname = "susmit31"
+footerHtml = '© Susmit Islam. Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
+  [params.author]
+    name = "Entropic Legos"
+    email = "hugo@example.com"
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
