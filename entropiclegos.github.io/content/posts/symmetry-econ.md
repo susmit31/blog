@@ -27,9 +27,9 @@ As supply-side forces change to increase supplies (e.g. due to, say, innovations
 
 
 ## Explanatory Power of the Model
-Any model in science (I'm sure to have triggered any natural scientist in the audience by my audacity to call econ a "science", but it truly is one whether its practitioners make it look so or not) has a realm (or scope) of applicability, and is judged by the explanatory power it offers within said realm. This model is incredibly powerful, so here are a couple of example cases to illustrate that this actually is a very valid model for its scope of usage.
+Any model in science (I'm sure to have triggered any natural scientist in the audience by my audacity to call econ a "science", but it truly is one whether its practitioners make it look so or not) has a realm (or scope) of applicability, and is judged by the explanatory power it offers within said realm. This model is incredibly powerful, so here is an example case to illustrate that this actually is a rather illuminating model for its scope of usage.
 
-### Case Study 1: Diagnosing Diseases in State Economy
+### Case Study: Diagnosing Diseases in State Economy
 
 ![Classical Supply and Demand Curves - Aggregate Supply](../../demand-classical-gdp-price.png)
 
