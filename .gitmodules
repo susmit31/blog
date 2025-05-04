@@ -5,3 +5,6 @@
 	path = entropiclegos.github.io/public
 	url = https://github.com/susmit31/entropiclegos.github.io
 	branch = master
+[submodule "entropiclegos.github.io/themes/nightfall"]
+	path = entropiclegos.github.io/themes/nightfall
+	url = https://github.com/lordmathis/hugo-theme-nightfall
