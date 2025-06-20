@@ -28,7 +28,7 @@ $$
 \text{U}: \R^3 \rightarrow \R
 $$
 
-### Version 2: Noether's Energy
+### Version 2: Noetherian Energy
 This is a version that is a slightly more advanced but also more general restatement of the definition, that expands the FTC definition to apply to even where traditional concepts of force are no longer meaningful, e.g. in quantum mechanics (QM). It is a special case of Noether's theorem, which says that:
 
 > **For each (continuous) symmetry of the Lagrangian, there is a conserved quantity.**
