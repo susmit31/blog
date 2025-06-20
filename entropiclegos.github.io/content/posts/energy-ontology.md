@@ -18,12 +18,15 @@ Here's how we express this mathematically:
 
 $$
 \boxed{
-\forall \mathbf{F} \in \R^3: \mathbf{F} = \nabla\phi \implies \exists E \in \R: E = K_\mathbf{r} + U (\mathbf{r}), \forall \mathbf{r} \in \R^3
+\forall \mathbf{F} \in \R^3: \mathbf{F} = \nabla\phi
+}\newline
+\boxed{\Rightarrow \exists E \in \R: E = K_\mathbf{r} + U (\mathbf{r}), \forall \mathbf{r} \in \R^3
 }\\ ,\newline
 \text{ }\newline
 \boxed{
-\text{U}(\mathbf{a}) - \text{U}(\mathbf{b}) \equiv \int_\mathbf{C} \mathbf{F}\cdot\mathbf{dr} \equiv K_\mathbf{b} - K_\mathbf{a}}\text{ ; where}\newline 
+\text{U}(\mathbf{a}) - \text{U}(\mathbf{b}) \equiv \int_\mathbf{C} \mathbf{F}\cdot\mathbf{dr} \equiv K_\mathbf{b} - K_\mathbf{a}}\newline
 \text{ } \newline
+\text{where}\newline 
 \newline \forall \mathbf{a}, \mathbf{b} \in \R^3\\ ; \newline \mathbf{C}: \R \rightarrow \R^3\\ ; \newline \mathbf{C}(0) = \mathbf{a}, \mathbf{C}(1) = \mathbf{b}\\ ; \newline
 \text{U}: \R^3 \rightarrow \R
 $$
@@ -38,9 +41,9 @@ Noether's theorem, for me, is *one of the most beautiful* theorems in all of phy
 $$
 \boxed{
 \begin{align*}
-\text{\textbf{E}}
-&\text{\textbf{nergy} is the \textbf{conserved quantity associated with}}\newline
-&\text{\textbf{time-translational invariance} of the Lagrangian.}
+&\text{\textbf{Energy} is the \textbf{conserved quantity}}\newline
+&\text{\textbf{associated with time-translational}}\newline
+&\text{\textbf{invariance of the Lagrangian.}}
 \end{align*}
 }
 $$
