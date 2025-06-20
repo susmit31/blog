@@ -55,10 +55,7 @@ To deliver oxy-Hb, you need to make it first, and then send it off with the flow
 So any clinical condition that *reduces oxygenation in the lungs* OR *impairs the circulatory status* of the patient will cause a cyanosis of reduced Oxy-Hb delivery. Note that in either case, this is a *global* cyanosis - i.e. it affects all tissue capillaries because it is concerned with the circulation as a whole.
 
 ## Case 2: Net Reduced Deoxy-Hb Clearance
-What about reduced deoxy-Hb clearance? What causes that? Deoxy-Hb, unlike oxy-Hb, is made *in the peripheral capillaries*, and its clearance depends on blood flowing *out of* the capillaries. Neither of these conditions depend on the heart or the lungs, unlike Case 1, and both depend instead on blood flow in and out of the capillaries. Again, as in Case 1, we have two situations that will cause a net accumulation of deoxy-Hb: 
-
-1. Making more deoxy-Hb. When does this happen? When the blood spends more time in the capillaries, allowing the tissue to extract more $O_2$ out of it, which creates more deoxy-Hb out of oxy-Hb. When does blood "spend more time" in the capillaries? When it's flowing in slowly, i.e. the arterial channel feeding into the capillaries is narrowed, i.e. *vasoconstricted*. That slows down the blood as it passes from arterioles into capillaries, and this leads to "more time spent" at the capillaries.
-2. Slower outflow of deoxy-Hb. When does this happen? When there's an *obstruction or congestion* downstream, i.e. in the venous circulation, the deoxy-Hb rich blood cannot proceed outwards from the capillaries.
+What about reduced deoxy-Hb Clinclearance? What causes that? Deoxy-Hb, unlike oxy-Hb, is made *in the peripheral capillaries*, and its clearance depends on blood flowing *out of* the capClinstruction or congestion* downstream, i.e. in the venous circulation, the deoxy-Hb rich blood cannot proceed outwards from the capillaries.
 
 So any clinical condition that causes *vasoconstriction* will cause cyanosis by causing more production of deoxy-Hb, while any condition that causes *venous congestion* will cause cyanosis by causing reducing the outflow of deoxy-Hb.
 
