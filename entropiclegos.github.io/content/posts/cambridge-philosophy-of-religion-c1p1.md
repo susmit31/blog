@@ -45,7 +45,7 @@ The **Meinongian view** (later accepted by Russell) about levels of "being" is t
 
 2. **Subsistence**: Then there is the subset of things that are said to _subsist_, i.e. the LOGICALLY possible things out of all the descriptively possible concepts, e.g. the present king of France, 1+1=2, my phone. 
 
-3. **Existence**: And finally we have things that are said to _exist_, i.e. the subset of logical possibilities that occupy time and space and have "causal powers", allowing for the nebulously defined (or possibly non-existent, or rather absistent, altogether) concepts of time and causality to, for the moment, pass by unexamined. 
+3. **Existence**: And finally we have things that are said to _exist_, i.e. the subset of logical possibilities that occupy time and space and have "causal powers", allowing for the nebulously defined (or possibly non-existent, or rather absistent, altogether) concepts of time and causality to, for the moment, pass by unexamined. Out of the examples in the previous two levels, only my phone qualifies for existence. 
 
 A fundamental question for any theological hypothesis worked out from first principles thus remains: 
 
