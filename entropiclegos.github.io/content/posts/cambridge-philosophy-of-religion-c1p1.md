@@ -25,7 +25,7 @@ This step sets up the stage for the tasks to be done at the next steps.
 ### Step 2: FURTHER WORK NEEDED
 The next step is to use the criteria to eliminate incompatible attributes. What, if any, mathematical object arises out of such process of filtering remains to be worked out. 
 
-(Since the $e_{ij}$ are supposed to be binary operations on the $a_{ij}$, I suspect ***the resulting structure might be a group***. But at the moment I have the mental energy to neither work out the rest of the steps, nor whether such a group would be of any value whatsoever in the philosophical analysis of the concept. But it seems a promising and possibly underexplored avenue so I'm writing it down here.)
+(Note to Self: Since the $e_{ij}$ are supposed to be binary operations on the $a_{ij}$, I suspect ***the resulting structure might give rise to groups***. But at the moment I have the mental energy to neither work out the rest of the steps, nor whether such a group would be of any value whatsoever in the philosophical analysis of the concept. But it seems a promising and possibly underexplored avenue so I'm writing it down here.)
 
 ### Step 3
 Finally we use other possible evaluation criteria E_i to arrive at an entire set of possible notions that could fit the original "supreme existence" that we had come up with, i.e. a set of admissible hypotheses, $G \equiv \\{\text{God}_i, i \in \N\\}$.
