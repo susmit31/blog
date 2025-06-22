@@ -51,7 +51,7 @@ A fundamental question for any theological hypothesis worked out from first prin
 
 $$
 \boxed{
-\text{What is the nature of existence of God$_i$?}
+\text{What is the nature of being of God$_i$?}
 }
 $$
 
