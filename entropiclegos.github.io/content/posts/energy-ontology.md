@@ -1,6 +1,7 @@
 +++
 title = 'Everywhere Yet Nowhere: The Ontological Status of Energy'
 date = 2025-06-20T18:37:18+06:00
+tags = ['Philosophy', 'Philosophy of Physics', 'Metaphysics', 'Ontology']
 draft = false
 +++
 # Energy is Everywhere. Or Is It?

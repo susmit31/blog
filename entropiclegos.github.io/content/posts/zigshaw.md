@@ -1,10 +1,10 @@
 +++
-title = 'Writing a Simple UNIX-like Shell in Zig'
+title = 'Exploring the Zig Programming Language: Part 1'
 date = 2024-06-24T23:36:33+06:00
-tags = ["programming", "zig", "computer-science"]
-series = ["Zig programming"]
+tags = ['programming', 'zig', 'computer-science']
 +++
-This is the first in (hopefully) a series of posts I intend to make about stuff I try out in the _Zig_ programming language. After having been exposed to it for around 5 days, I've started to develop a sort-of love-hate relationship with the language. The syntax, in general, feels great to me. It's low-level, compiled, fast. But on the other hand, the documentation, especially that of the [standard library](https://ziglang.org/documentation/master/std/), is horrendous - virtually nonexistent, apart from a cryptic comment for every function, struct or whatever. Existing tutorials are often out-of-date owing to the fact that the language is still hasn't had a full 1.x release, and "old" unwanted features are apparently being dropped by the devs every now and then.  
+# Writing a UNIX-like Shell in Zig
+This is the first in (hopefully) a series of posts I intend to make about stuff I try out in the _Zig_ programming language. After having been exposed to it for around 5 days, I've started to develop a sort-of love-hate relationship with the language. The syntax, in general, feels great to me. It's low-level, compiled, fast. But on the other hand, the documentation, especially that of the standard library, is horrendous - virtually nonexistent, apart from a cryptic comment for every function, struct or whatever. Existing tutorials are often out-of-date owing to the fact that the language is still hasn't had a full 1.x release, and "old" unwanted features are apparently being dropped by the devs every now and then.  
 
 My troubles notwithstanding, after giving up a couple of times, I decided to dive into the source code and try figuring things out by myself. What follows is the product of my adventures into this uncharted territory. But be warned, at the time you're reading, even this code might have become outdated. This code was written and tested with Zig verion 0.14 on Debian 12, so keep that at the back of your head as you go through this. (Much of the code should stay the same regardless your OS, as long as you use a POSIX-compliant shell such as Git Bash, for example.)
 

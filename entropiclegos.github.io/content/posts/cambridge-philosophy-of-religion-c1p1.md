@@ -1,6 +1,7 @@
 +++
 title = 'Philosophy of Religion by Murray and Rea First Thoughts: Chapter 1 - Part 1'
 date = 2025-06-22T23:42:32+06:00
+tags = ['Philosophy', 'Philosophy of Religion', 'Metaphysics', 'Epistemology', 'Ontology']
 draft = false
 +++
 # God: Epistemology and Ontology

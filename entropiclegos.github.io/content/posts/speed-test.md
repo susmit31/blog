@@ -1,11 +1,11 @@
 +++
-title = 'How Fast is Zig?'
+title = 'Exploring the Zig Programming Language: Part 2'
 date = 2024-06-26T23:15:37+06:00
 tags = ["programming", "computer-science", "zig", "c-cpp", "golang","rust", "python"]
 series = ["Zig programming"]
 draft = false
 +++
-
+# Zig is said to be "blazingly fast". But what exactly is "blazingly fast"?
 Zig is certainly one of the more fun languages I've coded in. But how fast is it? Let's compare it with some other top contenders, such as C, Rust, and Go. For scale, we will also put to test one of the more popular interpreted languages, Python.
 
 # But How Do We Measure Their Speed?
