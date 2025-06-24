@@ -8,7 +8,7 @@ draft = false
 # Zig is said to be "blazingly fast". But what exactly is "blazingly fast"?
 Zig is certainly one of the more fun languages I've coded in. But how fast is it? Let's compare it with some other top contenders, such as C, Rust, and Go. For scale, we will also put to test one of the more popular interpreted languages, Python.
 
-# But How Do We Measure Their Speed?
+## But How Do We Measure Their Speed?
 As computers are stupendously fast these days, they perform most tasks in the blink of an eye. It's hard to write a piece of code that will be both small (i.e. can be written within a few minutes) and computationally intensive (i.e. require a noticeable amount of execution time). A hack we can use, though, is using a stupid algorithm for a simple task. For example, for our purposes, I've chosen the recursive computation of the Fibonacci sequence, which has an exponential time complexity (compare this to the dynamic programming approach, which has a linear time complexity). This means, for example, the execution time for calculating the _N_-th Fibonacci number with this algorithm will be, say, _x_ times that of the _(N-1)_-th Fibonacci number, and _x^2_ times that of _(N-2)_-th Fibonacci number, and so on. So as we scale the problem upwards, the execution time increases geometrically.
 
 # The Code
