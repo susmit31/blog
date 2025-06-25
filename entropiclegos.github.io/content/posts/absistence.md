@@ -33,8 +33,8 @@ I won't touch upon the concept of "composite" sentences here, but it's relativel
 Armed with the framework, we're now perfectly equipped to transform Meinong's jungle into Meinong's civilisation. 
 
 1. **Absistence**: the class of objects that Meinong terms as "absisting" are the ones that are described by empty filters, i.e. function compositions that end up selecting the empty subset of the concept space. In other words, they're basically the same as *nothing* at all.
-2. **Subsistence**: these are non-empty filters that have no mapping from concept-space to real-space.
-3. **Existence**: these are non-empty filters that have a mapping from concept-space to real-space.
+2. **Subsistence**: these are non-empty filters that have no mapping from concept-space to real-space or vice versa.
+3. **Existence**: these are non-empty filters that have a mapping from concept-space to real-space or vice versa.
 
 ### In Action: 1. Can God Make a Squared Circle?
 To answer this we've got to first find out the meaning of "squared circle" with the recipe we've chalked out above. Unfortunately, circle selects a subset of the concept space that has an empty intersection with the filter "squared". So "Can God make a squared circle" translates to "can God make nothing?" He can of course, but so can everybody else. 
