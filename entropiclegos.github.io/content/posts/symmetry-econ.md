@@ -3,15 +3,14 @@ title = 'Making Castles in the Air: How Econ 101 Butchers Math - Part 1 '
 date = 2025-05-04T16:48:41+06:00
 tags = ['economics', 'mathematics', 'mathematical modelling', 'symmetry']
 +++
-
-# Using Symmetry to Expose the Fraud Poster Child of Economics
+## Using Symmetry to Expose the Fraud Poster Child of Economics
 Whenever we hear of the term "economics", the first picture that comes to mind is that of money. The second picture, if you've been put through at least some sort of formal economic education as in high schools, is the famous supply-and-demand curves. They're the ubiquitous poster-child of the field of economics, the same as $E = mc^2$ or the apocryphal "*apple falling on Sir Isaac's head*" in the field of physics. Despite the provocative title, I know and appreciate these models within their scope of usage, and the intent of this essay remains more mathematical than economical. As a noneconomist, I don't really know how much they're used in advanced economic work, but in public discourse of economic policymaking, they have proven so far to be invaluable assets, shedding light on everything starting from local egg prices and the exchange rates in a forex market to economic policymaking on a global level. Yet its mathematical underpinnings seem woefully underexplored. This essay will be an outsider's journey into attempting to formalize the immensely influential yet rather nebulous hand-wavy tools. The goal is, at the very least, to serve as a good demo of how simple mathematical principles and "gut feelings", pursued with determination, can lead to delightfully pleasant results. My starting point into the attack will be to a simple and seemingly reasonable hypothesis: *the supply curve can be viewed as a demand curve for money from the seller's perspective*. But first, let's review a bit about the classical model and see where it shines rather dazzlingly.
 
-# The Econ 101 Model of Supply and Demand
-## Laws of Supply and Demand
+## The Econ 101 Model of Supply and Demand
+### Laws of Supply and Demand
 First up, we should introduce the model we're trying to critique to a reasonable extent. If you are comfortable thinking about the economy in terms of them, you can safely [skip ahead](#let-the-floodgates-open) (but I would recommend at least skimming through the [case study](#case-study-diagnosing-diseases-in-state-economy) where I show a simple example of how and where the classical model shines). As the price of an object goes up, the demand for it goes down, and its supply goes up. At any random price $p$, the seller will be willing to supply an amount $s$ of goods, while the buyer will demand an amount $d$. If $ d > s $, we need to boost the supplies, and so the price goes up a bit to make the sellers supply at $ s' = d $, at which point they both agree on the price of the exchange, and the amount of goods to be transferred. Similarly, if $ d < s $, then the sellers drive the price down so that the supply is in locksteps with the demand, and where they meet is the **equilibrium price of goods** - this is a point at which the demand and the supply are such that no price modifications are necessary. All this is packaged into a neat little "universal" law - *the law of supply and demand*.
 
-## The Graphical Summary
+### The Graphical Summary
 Now comes the fun part. The laws of supply and demand are neat, but putting them up on a graph is sleek. Here's what it looks like.
 
 ![Classical Supply and Demand Curves](../../demand-classical.png)
@@ -20,13 +19,13 @@ The x-axis shows the price, labelled $p$, while the y-axis shows the quantity of
 
 ![Classical Supply and Demand Curves - Nonequilibrium Points](../../demand-classical-noneq.png)
 
-## Shifting Market Forces
+### Shifting Market Forces
 As supply-side forces change to increase supplies (e.g. due to, say, innovations that make production much cheaper), the sellers will want to sell more of a good at the same price.This means a leftward shift of the supply curve. This new, shifted supply curve is depicted by the dashed line in the figure. As you can see, as supply goes up, price must go down. In a similar fashion, when demand goes up (i.e. the demand curve shifts rightwards), the price goes up, and vice versa.
 
 ![Classical Supply and Demand Curves - Shifting Market Forces](../../demand-classical-changing.png)
 
 
-## Explanatory Power of the Model
+### Explanatory Power of the Model
 Any model in science (I'm sure to have triggered any natural scientist in the audience by my audacity to call econ a "science", but it truly is one whether its practitioners make it look so or not) has a realm (or scope) of applicability, and is judged by the explanatory power it offers within said realm. This model is incredibly powerful, so here is an example case to illustrate that this actually is a rather illuminating model for its scope of usage.
 
 ### Case Study: Diagnosing Diseases in State Economy
@@ -55,10 +54,10 @@ I saved the best for the last. This is an absolute economic utopia - high GDP, l
 
 ![Classical Supply and Demand Curves - Economic Boom](../../demand-classical-boom.png)
 
-# Let the Floodgates Open!
+## Let the Floodgates Open!
 Okay, 'nuf said about the pros of the old model. Let's dive into where it goes wrong from a mathematical standpoint.
 
-## The Asymmetry of Money and Other Goods
+### The Asymmetry of Money and Other Goods
 Traditional economic models, rather implicitly, assign money a fundamentally different quality than other goods. This may not always be visible, but if we take the time to work out the math, money does turn out to be *very* specially treated.
 
 ### The "Principle of Transactional Relativity" 
@@ -133,7 +132,7 @@ And the resulting curve, for parameters c and k both set to equal 1, looks like.
 
 This is closer to an exponential curve than anything else. This tells us one of two things - **either the principle of transactional symmetry is invalid, or the linear-form supply and demand curves are nothing but PURE FRAUD.**
 
-# Ways forward
+## Ways forward
 As alluded to in the previous paragraph, our pursuit of symmetry has now led us to a fork in the road, and we must choose where to go from here. Assuming you, like myself, prefer staying in the comfort of your home while you do all your mathematical explorations, I take it that you too would agree that experimenting is not an option under consideration, not at least at this point. We could try coming up with an experimental design that would enable us to draw supply and demand curves for various goods including money itself, but if you're anything like myself, you'd agree that unless we've seen this theoretical thread to its very logical end where logic alone can no longer help us proceed, resorting to experiments would be a cop-out.
 
 So under these constraints, there is only one possible way for us to take - we call the classical model out on its bullshit and take the mathematical route. **We assume the validity of the principle of transactional symmetry, and work out what sort of supply and demand curves respect that symmetry**. And after we've worked that out, we'll see if the resulting curves make sense empirically, possibly turning to an experimental study eventually. But for now, if you've read it this far, let's call it a day and rest and recharge. Till then, thank you and goodbye!

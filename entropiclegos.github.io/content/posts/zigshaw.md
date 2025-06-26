@@ -3,12 +3,12 @@ title = 'Exploring the Zig Programming Language: Part 1'
 date = 2024-06-24T23:36:33+06:00
 tags = ['programming', 'zig', 'computer-science']
 +++
-# Writing a UNIX-like Shell in Zig
+##  Writing a UNIX-like Shell in Zig
 This is the first in (hopefully) a series of posts I intend to make about stuff I try out in the _Zig_ programming language. After having been exposed to it for around 5 days, I've started to develop a sort-of love-hate relationship with the language. The syntax, in general, feels great to me. It's low-level, compiled, fast. But on the other hand, the documentation, especially that of the standard library, is horrendous - virtually nonexistent, apart from a cryptic comment for every function, struct or whatever. Existing tutorials are often out-of-date owing to the fact that the language is still hasn't had a full 1.x release, and "old" unwanted features are apparently being dropped by the devs every now and then.  
 
 My troubles notwithstanding, after giving up a couple of times, I decided to dive into the source code and try figuring things out by myself. What follows is the product of my adventures into this uncharted territory. But be warned, at the time you're reading, even this code might have become outdated. This code was written and tested with Zig verion 0.14 on Debian 12, so keep that at the back of your head as you go through this. (Much of the code should stay the same regardless your OS, as long as you use a POSIX-compliant shell such as Git Bash, for example.)
 
-# The basics
+## The basics
 Of course, we start by importing the standard library.
 ```
 const std = @import("std");
@@ -21,7 +21,7 @@ const stdin = std.io.getStdIn();
 const stdout = std.io.getStdOut();
 ```
 
-# The main function
+## The main function
 Now we head over to the main function. By the way, I named my shell "Zigshaw". Hope that's not too corny.
 ```
 pub fn main() !void{
@@ -53,7 +53,7 @@ Now after our introductory greeting, like any other good programme, I want to re
 
 Note that in Zig, you can't compile a programme if you have an unused variable. Similar to Go, if something a function returns is to be discarded, we store it in an underscore (\_). In case of the argument vector containing the command, the underscore means that the array length is to be inferred, which in this case is 2.  
 
-# The protagonist shows up
+## The protagonist shows up
 Our next task, the meat of our work, is in the next line of code.
 ```
 	try looper(&buffer, allocator);

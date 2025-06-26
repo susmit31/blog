@@ -5,13 +5,13 @@ tags = ["programming", "computer-science", "zig", "c-cpp", "golang","rust", "pyt
 series = ["Zig programming"]
 draft = false
 +++
-# Zig is said to be "blazingly fast". But what exactly is "blazingly fast"?
+##  Zig is said to be "blazingly fast". But what exactly is "blazingly fast"?
 Zig is certainly one of the more fun languages I've coded in. But how fast is it? Let's compare it with some other top contenders, such as C, Rust, and Go. For scale, we will also put to test one of the more popular interpreted languages, Python.
 
-## But How Do We Measure Their Speed?
+### But How Do We Measure Their Speed?
 As computers are stupendously fast these days, they perform most tasks in the blink of an eye. It's hard to write a piece of code that will be both small (i.e. can be written within a few minutes) and computationally intensive (i.e. require a noticeable amount of execution time). A hack we can use, though, is using a stupid algorithm for a simple task. For example, for our purposes, I've chosen the recursive computation of the Fibonacci sequence, which has an exponential time complexity (compare this to the dynamic programming approach, which has a linear time complexity). This means, for example, the execution time for calculating the _N_-th Fibonacci number with this algorithm will be, say, _x_ times that of the _(N-1)_-th Fibonacci number, and _x^2_ times that of _(N-2)_-th Fibonacci number, and so on. So as we scale the problem upwards, the execution time increases geometrically.
 
-# The Code
+## The Code
 We will compute the 45-th Fibonacci number as our speed test, using the algorithm mentioned above. We calculate it a total of 5 times and take the average execution time as our comparison metric. Here's the code in Zig.
 
 ```zig
@@ -53,7 +53,7 @@ fn loop(n_loop: u32, n_fib: u32) u64{
 
 The exact same algorithm was implemented in C, Rust, Go, and Python for the sake of comparison. And what were the results?
 
-# The Results
+## The Results
 I was kind of surprised with the results. I'd expected either `Rust` or `C` to top the list, but neither did. And I expected `Zig` to do _at least_ better than `Go`, but that also didn't happen. See the outputs for yourselves.
 
 ![speed-tests](../../speed.png)
@@ -62,7 +62,7 @@ I was kind of surprised with the results. I'd expected either `Rust` or `C` to t
 
 By the way, I tried the same thing out with `Python`, one of the most popular interpreted languages out there. I couldn't wait long enough to run the `Python` code for 10 iterations, as a single iteration took the `Python` code more than 2 minutes (135.182s), several times slower than even the slowest compiled binary by `Zig`. I am a `Python` stan, but interpreted languages are no match for compiled languages, sorry!
 
-# Does It Matter, Tho?
+## Does It Matter, Tho?
 Modern compilers make a lot of optimizations under the hood to generate highly performant machine code, to the point that if you manually wrote a programme to do the same in `Assembly`, your code is almost _guaranteed_ to be slower than that written using any of `C`, `Go`, `Rust`, or `Zig`. The point I'm trying to make here is that the compiler plays a big role in determining the execution time. If you compile the code with different compilers, you will get different machine code output, often with significant performance differences. So while you interpret the results, keep in mind that the speed differences reflect under-the-hood optimisations that you and I do not, and need not, know about. For most real-world applications, we hardly ever use an exponential-time algorithm, even when there are no other exact solution algorithms. The essence of computer science is not necessarily in doing things _the right way_, but in _getting things done_. In the Fibonacci number problem, fortunately, a trick called memoization or caching changes the exponential runtime algorithm into a linear runtime algorithm. This turns the calculation into something _orders of magnitude_ faster - `Python`, which couldn't calculate even the 45th Fibonacci in 2 minutes, can now calculate the 100th Fibonacci number in _less than 6 microseconds_!  
 
 ![Speed testing with an algorithmic upgrade](../../pyspeed.png)
