@@ -4,8 +4,11 @@ date = 2025-06-26T22:05:59+06:00
 tags = ['mathematics', 'differential geometry', 'topology']
 draft = false
 +++
+
+## Topology in Cakeland
+The first issue you run into when you're trying to learn topology and differential geometry, if you've never taken a class in "advanced" maths before, is the fact that it's studded with definitions, often with no clear motivation. Now of course this wasn't the case when these ideas were being worked out, they just didn't make things up as they pleased. In this series of articles, we'll take a step back from rigorous mathematics and try to come up with intuitive notions that best convey these ideas. 
 ## Gen. Topology, Brig. Connection, Maj. Manifold
-The first issue you run into when you're trying to learn topology and differential geometry, if you've never taken a class in "advanced" maths before, is the fact that it's studded with definitions, often with no clear motivation. Now of course this wasn't the case when these ideas were being worked out, they just didn't make things up as they pleased. In this series of articles, we'll take a step back from rigorous mathematics and try to come up with intuitive notions that best convey these ideas. Today we'll give a big picture overview of topologies, manifolds, and connections. Intended audience includes those who've already had some exposure to these but can't quite internalise the ideas and tie them together with a concrete example. If you have no idea at all about any of these things, you might still try reading, but I wouldn't encourage you to, at least before you've had some proper exposure from any book or lecture.
+Today we'll give a big picture overview of topologies, manifolds, and connections. Intended audience includes those who've already had some exposure to these but can't quite internalise the ideas and tie them together with a concrete example. If you have no idea at all about any of these things, you might still try reading, but I wouldn't encourage you to, at least before you've had some proper exposure from any book or lecture.
 
 ## Let's Bake!
 ### Step 0: The Baking Powder
