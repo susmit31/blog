@@ -1,5 +1,5 @@
 +++
-title = "A (Wannabe) Topologist's Apology - Let's Bake a Cake!"
+title = "Manifolds, Connections, Topologies - Let's Bake a Cake! (REPOST)"
 date = 2025-06-26T22:05:59+06:00
 tags = ['mathematics', 'differential geometry', 'topology']
 draft = false

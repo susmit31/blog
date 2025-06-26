@@ -1,5 +1,5 @@
 +++
-title = 'Newtonian Spacetime is Curved!'
+title = 'Newtonian Spacetime is Curved! (REPOST)'
 date = 2025-06-26T22:58:54+06:00
 tags = ['physics', 'gravity', 'curvature']
 draft = false
