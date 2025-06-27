@@ -54,5 +54,8 @@ Anyway, why then did Newtonian gravity fail? Newtonian spacetime is curved (by m
 ### How Does My Presentism Reinterpret Curved Spacetime?
 It's hard to fit this into the curved spacetime view. I'll have to spend some more time with the Einstein field equations to see how it can be achieved. It'll have to be a component of the curvature tensor that changes depending on the motion of the object, I think. I wouldn't consider dropping the existing tensorial structure of the theory since, as I said already, time is a bookkeeping variable that simplifies calculations. But it should in principle be possible to incorporate the temporal components of the stress-energy and Einstein tensors into the spatial components in a way that preserves observable quantities.
 
+### Untackled Issues
+I am yet to take on a formal study of quantum field theory (QFT) so I can't yet say how that treats time as a concept. In nonrelativistic QM, it's not an observable like anything else, rather it's the stage on which QM unfolds. That means that there's no eigenvalue-eigenstates that correspond to time measurements, and it's just a label. I've got to see how QFT addresses this issue, and for that I need to undertake a formal study of QFT. I'm eyeing Dyson's lecture notes or Lancaster and Blundell's text for getting a start into the field. We'll see where we get.
+
 ## Concluding Remarks
 IDK if I've been able to put my thoughts down coherently enough for other people to comprehend them. But I'll leave it here for now having wasted over an hour of my studying time. But the itch was unbearable so had to get it off my head. If I've sent you this and you've read this far, thanks. 
