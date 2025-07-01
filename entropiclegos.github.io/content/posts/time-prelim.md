@@ -4,11 +4,11 @@ date = 2025-06-27T19:39:25+06:00
 tags = ['ontology', 'philosophy', 'relativity', 'philosophy of physics']
 draft = false
 +++
+## TL; DR
+I'm, for the time being (pun intended and very much apt), a presentist. If I find at some point that it doesn't fit the data, I'll drop it with no ifs and buts. I just want to see which hypothesis works better. The time hypothesis doesn't in my opinion, as I want to make plausible in what follows. **This post argues that time is not fundamental but an emergent property of change and memory. I sketch how presentism could survive relativity, reinterpret GR, and set the stage for a future quantum theory of gravity.**
 
 ## What is a Clock?
 A philosopher and a physicist walk into a cafe. The philosopher asks the physicist to define "time". The physicist says,"simple - *that which is measured by a clock*". "Cool, but *what is a frickin clock?*", replies the exasperated philosopher. (The real fun, however, happens when both of them are the same person.)
-
-I'm, for the time being (pun intended and very much apt), a presentist. If I find at some point that it doesn't fit the data, I'll drop it with no ifs and buts. I just want to see which hypothesis works better. The time hypothesis doesn't, as I want to make plausible in what follows. **This post argues that time is not fundamental but an emergent property of change and memory. I sketch how presentism could survive relativity, reinterpret GR, and set the stage for a future quantum theory of gravity.**
 
 Also a disclaimer, I deliberately insulate myself from looking up exact philosophical literature on topics where I believe I have sufficient grounding to be able to work out a thorough answer from. This includes, but isn't limited to, time. This post is not to discuss my thoughts on time in an elaborate manner. I'll defer that to a later time when I feel that my ideas have reached their ultimate form. But for now, I'd like to drop some hints. These ideas may already have been developed by other people, maybe they even have special names and may already have been shown to be wrong and so on. If it resonates with some established thinker's thoughts that you know of, great. But the validity of the contents of someone's arguments (i.e. propositions) shouldn't depend on their identity, objectively speaking. What follows are my thoughts on this problem, very loosely structured, but there's a lot more to each thread than I go into, or have time to go into for now since I have a big exam within about 4 days. Enjoy.
 
