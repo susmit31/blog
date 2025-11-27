@@ -152,7 +152,7 @@ $$
 Now start working backwards. We know that the eikonal equation for matter gives the action $S$ to be equivalent to the wavefronts of light waves. So similar to the monochromatic light wave ansatz, we choose the following to represent matter waves that solve the as of yet undwtermined matter wave equation:
 
 $$
-\psi = \psi_0 e^iS/\kappa
+\psi = \psi_0 e^{iS/\kappa}
 $$
 
 where \kappa is a constant. Recall that for a time-independent Hamiltonian, the Hamilton-Jacobi equation can be integrated to give
@@ -164,7 +164,7 @@ $$
 which means the wave can also be written
 
 $$
-\psi = \psi_0 e^[i(S_0/\kappa - E t/\kappa)]
+\psi = \psi_0 e^{[i(S_0/\kappa - E t/\kappa)]}
 $$
 
 Comparing this with the EM wave solution, we get the following equivalent quantities:
