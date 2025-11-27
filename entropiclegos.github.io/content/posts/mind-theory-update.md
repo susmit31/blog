@@ -1,7 +1,6 @@
 +++
 title = 'Mind Theory Update'
 date = 2025-02-17T23:40:49+06:00
-tags = ['Philosophy', 'Metaphysics', 'Consciousness']
 draft = false
 tags = ['philosophy', 'metaphysics', 'philosophy of mind', 'consciousness']
 +++
