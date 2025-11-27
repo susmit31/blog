@@ -65,7 +65,7 @@ $$
 We obtain the Eikonal equation by working with a trial solution:
 
 $$
-\vec{E} = \vec{E_0} e^(ik_0R - i\omega t)
+\vec{E} = \vec{E_0} e^{(ik_0R - i\omega t)}
 $$
 
 and then taking the short wavelength limit.(For the details, I'll refer you to chapter 9 of the excellent [https://optics.byu.edu/textbook](optics textbook) from Brigham Young University, made available by them for free.) 
@@ -98,13 +98,13 @@ $$
 Of course, this immediately gives in the Cartesian coordinates the following result:
 
 $$
-\nabla S = p \hat{p} = sqrt(2m (E - V)) \hat{p}
+\nabla S = p \hat{p} = \sqrt(2m (E - V)) \hat{p}
 $$
 
 Do you see where we're going? This is virtually identical to the eikonal equation for light. So we write,
 
 $$
-\boxed{\text{Eikonal equation for matter}}\; \nabla S = sqrt(2m (E-V)) \hat{p}
+\boxed{\text{Eikonal equation for matter}}\; \nabla S = \sqrt(2m (E-V)) \hat{p}
 $$
 
 where the action $S$ now plays the role of the *eikonal function*, and $\sqrt(2m (E-V))$ gives the effective "refractive index" for the wave represented by this. This contains everything you need to describe particle motion in Newtonian physics. 
