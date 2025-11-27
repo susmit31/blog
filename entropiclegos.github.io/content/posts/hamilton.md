@@ -53,13 +53,13 @@ While the exact meaning of the time measured in both contexts is different, it w
 Before proceeding, we need to see what I consider a rather beautiful conception: the **eikonal equation for light rays**(eikonal is just the Greek word for "related to icons or images", so named because the formation of images by refracting and reflecting surfaces is explained with this theory):
 
 $$
-\boxed{\text{Eikonal equation for light}}\; \nabla R(\vec{r}) = n(\vec{r}) \hat{u}
+\boxed{\text{Eikonal equation for light}} \; \nabla R(\vec{r}) = n(\vec{r}) \hat{u}
 $$
 
 where the function $R(\vec{r})$ gives, through its contours, the wavefronts of the light wave, $n(\vec{r})$ is the index of refraction, and $\hat{u}$ is the direction of propagation. $R$ is called the *eikonal function*. This isn't the full wave equation for electromagnetic waves, of course, which is a 2nd-order, 1st-degree PDE of the form:
 
 $$
-\boxed{\text{EM Wave equation}}\; \nabla^2 E_i = \frac{1}{c^2} \partial^2_t E_i 
+\boxed{\text{EM Wave equation}} \; \nabla^2 E_i = \frac{1}{c^2} \partial^2_t E_i 
 $$
 
 We obtain the Eikonal equation by working with a trial solution:
@@ -86,7 +86,7 @@ To summarise, we write the following quip:
 When I first learnt Hamilton-Jacobi theory more than 10 years back during my first exposure to analytical mechanics, I found it to be not much more than an obscure theoretical curiosity. It's a formulation of mechanics where the *action* takes centre stage through the central equation
 
 $$
-\boxed{\text{Hamilton-Jacobi equation}}\; H + \frac{\partial S}{\partial t} = 0
+\boxed{\text{Hamilton-Jacobi equation}} \; H + \frac{\partial S}{\partial t} = 0
 $$
 
 The conjugate momenta are given by
@@ -188,7 +188,7 @@ $$
 Recalling that $n = \sqrt(2m (E-V))$, we arrive at the *matter wave equation* envisioned by Hamilton:
 
 $$
-\boxed{\text{Hamilton's matter wave equation}}\;\nabla^2 \psi + \frac{2m(E-V)}{\kappa^2} \psi = 0
+\boxed{\text{Hamilton's matter wave equation}} \;\nabla^2 \psi + \frac{2m(E-V)}{\kappa^2} \psi = 0
 $$
 
 Sir Hamilton didn't derive this, of course, but it was a relatively straightforward completion of his rudimentary concepts. We now know the constant $\kappa$ is just $\hbar$, the reduces Planck constant. So we see that Hamilton was indeed right to speculate that
