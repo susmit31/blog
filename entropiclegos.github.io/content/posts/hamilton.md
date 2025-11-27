@@ -213,6 +213,7 @@ The literature on this topic is pretty advanced compared to typical undergrad st
 1. The Variational Principles of Mechanics - C. Lanczos.
 2. Theoretical Physics Vol. 2 (Analytical Mechanics) and Theoretical Physics Vol. 3 (Quantum Mechanics) - W. Nolting.
 3. Modern Classical Mechanics - Helliwell and Sahakian.
+4. Modern Classical Physics: Optics, Fluids, Plasmas, Elasticity, Relativity, and Statistical Physics - Thorne and Blandford.
 4. Variational Principles in Physics - Basdevant.
 4. Analytical Mechanics for Relativity and Quantum Mechanics - Johns.
 4. Principles of Optics - Born and Wolf
