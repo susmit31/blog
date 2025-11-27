@@ -188,13 +188,16 @@ $$
 Recalling that $n = \sqrt(2m (E-V))$, we arrive at the *matter wave equation* envisioned by Hamilton:
 
 $$
-\boxed{\text{Hamilton's matter wave equation}} \;\nabla^2 \psi + \frac{2m(E-V)}{\kappa^2} \psi = 0
+\boxed{\text{Hamilton's matter wave equation}}
+$$
+$$
+\nabla^2 \psi + \frac{2m(E-V)}{\kappa^2} \psi = 0
 $$
 
 Sir Hamilton didn't derive this, of course, but it was a relatively straightforward completion of his rudimentary concepts. We now know the constant $\kappa$ is just $\hbar$, the reduces Planck constant. So we see that Hamilton was indeed right to speculate that
 
 $$
-\lim_{\lambda \rightarrow 0} \text{wave mechanics} = \text{classical mechanics}
+\boxed{\lim_{\lambda \rightarrow 0} \text{wave mechanics} = \text{classical mechanics}}
 $$
 
 i.e., classical mechanics is the eikonal limit of the more correct wave description of matter.
