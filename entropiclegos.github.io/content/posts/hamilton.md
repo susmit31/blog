@@ -98,16 +98,16 @@ $$
 Of course, this immediately gives in the Cartesian coordinates the following result:
 
 $$
-\nabla S = p \hat{p} = \sqrt(2m (E - V)) \hat{p}
+\nabla S = p \hat{p} = \sqrt{(2m (E - V)) \hat{p}}
 $$
 
 Do you see where we're going? This is virtually identical to the eikonal equation for light. So we write,
 
 $$
-\boxed{\text{Eikonal equation for matter}}\; \nabla S = \sqrt(2m (E-V)) \hat{p}
+\boxed{\text{Eikonal equation for matter}}\; \nabla S = \sqrt{(2m (E-V)) \hat{p}}
 $$
 
-where the action $S$ now plays the role of the *eikonal function*, and $\sqrt(2m (E-V))$ gives the effective "refractive index" for the wave represented by this. This contains everything you need to describe particle motion in Newtonian physics. 
+where the action $S$ now plays the role of the *eikonal function*, and $\sqrt{(2m (E-V))}$ gives the effective "refractive index" for the wave represented by this. This contains everything you need to describe particle motion in Newtonian physics. 
 
 The wave speed can be calculated by setting the differential of the wavefront to be zero:
 
@@ -185,7 +185,7 @@ $$
 \nabla^2 \psi + \frac{n^2}{\kappa^2} \psi = 0.
 $$
 
-Recalling that $n = \sqrt(2m (E-V))$, we arrive at the *matter wave equation* envisioned by Hamilton:
+Recalling that $n = \sqrt{(2m (E-V))}$, we arrive at the *matter wave equation* envisioned by Hamilton:
 
 $$
 \boxed{\text{Hamilton's matter wave equation}}
