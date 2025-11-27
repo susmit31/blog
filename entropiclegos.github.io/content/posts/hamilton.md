@@ -106,7 +106,10 @@ $$
 Do you see where we're going? This is virtually identical to the eikonal equation for light. So we write,
 
 $$
-\boxed{\text{Eikonal equation for matter}}\quad \nabla S = \sqrt{(2m (E-V)) \hat{p}}
+\boxed{\text{Eikonal equation for matter}}
+$$
+$$
+ \nabla S = \sqrt{(2m (E-V)) \hat{p}}
 $$
 
 where the action $S$ now plays the role of the *eikonal function*, and $\sqrt{(2m (E-V))}$ gives the effective "refractive index" for the wave represented by this. This contains everything you need to describe particle motion in Newtonian physics. 
