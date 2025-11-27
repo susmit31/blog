@@ -53,7 +53,9 @@ While the exact meaning of the time measured in both contexts is different, it w
 Before proceeding, we need to see what I consider a rather beautiful conception: the **eikonal equation for light rays**(eikonal is just the Greek word for "related to icons or images", so named because the formation of images by refracting and reflecting surfaces is explained with this theory):
 
 $$
-\boxed{\text{Eikonal equation for light}} \quad \nabla R(\vec{r}) = n(\vec{r}) \hat{u}
+\boxed{\text{Eikonal equation for light}}
+$$
+$$ \nabla R(\vec{r}) = n(\vec{r}) \hat{u}
 $$
 
 where the function $R(\vec{r})$ gives, through its contours, the wavefronts of the light wave, $n(\vec{r})$ is the index of refraction, and $\hat{u}$ is the direction of propagation. $R$ is called the *eikonal function*. This isn't the full wave equation for electromagnetic waves, of course, which is a 2nd-order, 1st-degree PDE of the form:
