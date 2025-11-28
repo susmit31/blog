@@ -112,7 +112,7 @@ $$
  \nabla S = \sqrt{(2m (E-V))} \quad \hat{p}
 $$
 
-where the action $S$ now plays the role of the *eikonal function*, and $\sqrt{(2m (E-V))}$ gives the effective "refractive index" for the wave represented by this. This contains everything you need to describe particle motion in Newtonian physics. 
+where the action $S$ now plays the role of the *eikonal function*, and $\sqrt{(2m (E-V))}$ gives the effective "refractive index" for the wave represented by this. This contains everything you need to describe particle motion in Newtonian physics. (If you've studied the semiclassical or WKB approximation method in QM, this equation immediately rings a bell, doesn't it?)
 
 The wave speed can be calculated by setting the differential of the wavefront to be zero:
 
@@ -199,7 +199,7 @@ $$
 \nabla^2 \psi + \frac{2m(E-V)}{\kappa^2} \psi = 0
 $$
 
-Sir Hamilton didn't derive this, of course, but it was a relatively straightforward completion of his rudimentary concepts. We now know the constant $\kappa$ is just $\hbar$, the reduces Planck constant. So we see that Hamilton was indeed right to speculate that
+Sir Hamilton didn't derive this, of course, but it was a relatively straightforward completion of his rudimentary concepts. We now know the constant $\kappa$ is just $\hbar$, the reduced Planck constant. So we see that Hamilton was indeed right to speculate that
 
 $$
 \boxed{\lim_{\lambda \rightarrow 0} \text{wave mechanics} = \text{classical mechanics}}
