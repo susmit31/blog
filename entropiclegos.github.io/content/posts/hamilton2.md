@@ -69,7 +69,13 @@ $$
 \Phi_\{\text{new}}(\mathbf{r}) = \Phi_0 \exp{(-\kappa \hat{k}\cdot\mathbf{r})}
 $$
 
-Note that the imaginary part of our complex refractive index, $\kappa$, is the only thing that determines the attenuation, while the real part $n$ determines the phase velocity $v_{\ph} = c / n$ of the wave in the "medium". What does this mean *physically*?
+Note that the imaginary part of our complex refractive index, $\kappa$, is the only thing that determines the attenuation, while the real part $n$ determines the phase velocity $v_{\ph} = c / n$ of the wave in the "medium". Now, since the decay of the amplitude in the classically forbidden region is determined by $\kappa$, the imaginary part of $\mathcal{N}$, and as we've seen, in the context of tunnelling we're dealing with a purely imaginary effective refractive index, then it follows that the decaying wavefunction in the forbidden region looks like:
+
+$$ 
+\Phi_\{\text{new}}(\mathbf{r}) = \Phi_0 \exp{(-\frac{\sqrt{2m(V-E)}}{\hbar} \hat{k}\cdot\mathbf{r})}
+$$
+
+What does this mean *physically*?
 
 This means firstly that
 
