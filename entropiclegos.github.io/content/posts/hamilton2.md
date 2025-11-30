@@ -13,7 +13,7 @@ $$
 \boxed{\lim_{\lambda \rightarrow 0} \text{Wave Mechanics = Classical Mechanics} }
 $$
 
-and thus saw how Hamilton "predicted" quantum mechanics a hundred years prior to its advent. As in geometrical optics, we forget about the details of the wave picture when the wavelengths are very small compared to the scales of motion. This allows us to simply describe classical particle trajectories, at the expense of the ability to explain phenomena like diffraction, interference, and importantly, attenuation. In this episode, we show how the quantum phenomenon of tunnelling is naturally understood as the attenuation of matter-waves. 
+and thus saw how **Hamilton "predicted" quantum mechanics a hundred years prior to its advent**. As in geometrical optics, we forget about the details of the wave picture when the wavelengths are very small compared to the scales of motion. This allows us to simply describe classical particle trajectories, at the expense of the ability to explain phenomena like diffraction, interference, and importantly, attenuation. In this episode, we show how the quantum phenomenon of tunnelling is naturally understood as the attenuation of matter-waves. 
 
 ## Prerequisites
 I assume the reader is familiar with quantum tunnelling and optical attenuation at a basic level.
