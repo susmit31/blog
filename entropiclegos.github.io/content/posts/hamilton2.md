@@ -7,7 +7,7 @@ draft = false
 ## TL; DR
 > "Our dynamics (including its Einsteinian form) has lagged behind optics; it is still at the stage of geometric optics" - *L. de Broglie*, in his PhD thesis *Research on the Theory of Quanta*.
 
-In the [previous episode](https://susmit31.github.io/entropic-legos/posts/hamilton/), following the footsteps of Hamilton, we showed that classical mechanics is mathematically equivalent to geometric optics and naturally extended the particle theory of matter to *wave theory of matter*, for which
+Last time, following the footsteps of Hamilton, we showed that classical mechanics is mathematically equivalent to geometric optics and naturally extended the particle theory of matter to *wave theory of matter*, for which
 
 $$
 \boxed{\lim_{\lambda \rightarrow 0} \text{Wave Mechanics = Classical Mechanics} }
