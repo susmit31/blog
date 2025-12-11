@@ -6,7 +6,7 @@ tags = ['quantum mechanics', 'physics', 'relativity']
 +++
 
 ## TL;DR
-> "God is a mathematician of a very high order and He used advanced mathematics in constructing the universe." - *Paul Adrien Maurice Dirac*.
+> "God is a mathematician of a very high order and He used advanced mathematics in constructing the universe." - *Paul A.M. Dirac*.
 
 Veritasium recently released a video on the basic wave equation describing spin-1/2 fermions, AKA the Dirac equation,
 $$
