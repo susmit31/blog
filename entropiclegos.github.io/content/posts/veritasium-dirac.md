@@ -12,7 +12,7 @@ Veritasium recently released a video on the basic wave equation describing spin-
 $$
 \boxed{(i\hbar\gamma^\mu\partial_\mu - m)\Psi = 0}
 $$
-which to me is the one of the most beautiful equations in all of physics, second only to perhaps the Einstein field equations (or perhaps Hamilton's principle). In this post we add some technical meat that Veritasium glossed over, left unmentioned, or I thought deserves a bit more space(time), to the best of my knowledge (keeping in mind, of course, *"The equation is smarter than I am").
+which to me is the one of the most beautiful equations in all of physics, second only to perhaps the Einstein field equations (or perhaps Hamilton's principle). In this post we add some technical meat that Veritasium glossed over, left unmentioned, or I thought deserves a bit more space(time), to the best of my knowledge (keeping in mind, of course, the wise words - *"The equation is smarter than I am"*).
 
 ## What's Wrong With Klein-Gordon (and -Fock)?
 First we write down the KG(F) equation:
