@@ -55,3 +55,6 @@ Now if you'll recall, from the half-moon we *already* know that the sun is 400 t
 
 ## BRB
 This is all the carpentry I could do in a day. In my defence, though, I've never built a ladder before, so having built 4 rungs in a single day is pretty cool. Anyway, thanks for reading, and stay tuned for the next one!
+
+## P.S.
+General plans for the series: "main-sequence" episodes such as this will be about mainly distance measuring. "Main-sequence" episodes will be interspersed with "off-main-sequence" detour episodes where we delve into some deeper physical ideas. (For example, for the next episode, I'm planning to do such a one where I'll discuss why something as big as the earth *has to be* round - something known in astronomy as the "potato radius".)
