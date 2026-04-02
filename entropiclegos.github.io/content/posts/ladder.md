@@ -35,7 +35,7 @@ This of course assumes that the sun is *very* far away so that the diameter of t
 ![half-moon](../../half-moon.png)
 $$\text{Fig. 2: How far away is the sun?}$$
 
-A new moon is when the sun and the moon are *nearly* aligned, i.e. when the angle between them as measured from the earth is close to zero. A half-moon isn't seen, though, when the moon is done with half of half, or a quarter, of its orbit (why half of half? Since for every full revolution, the moon goes through two phase cycles, new moon to new momon is half the lunar period of 28 days - 14 days).  A half-moon is seen when the earth and the sun make an angle of 90° at the moon, as shown in the above figure. This means that measuring the angle $\alpha$, we can say the following:
+A new moon is when the sun and the moon are *nearly* aligned, i.e. when the angle between them as measured from the earth is close to zero. A half-moon isn't seen, though, when the moon is done with half of half, or a quarter, of its orbit (why half of half? Since for every full revolution, the moon goes through two phase cycles, new moon to new moon is half the lunar period of 28 days - 14 days).  A half-moon is seen when the earth and the sun make an angle of 90° at the moon, as shown in the above figure. This means that measuring the angle $\alpha$, we can say the following:
 
 $$
 \cos \alpha = \frac{\text{Distance from Earth to Moon}, d_M}{\text{Distance from Earth to Sun}, d_S}
