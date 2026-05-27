@@ -55,8 +55,10 @@ I'm not nearly qualified enough to talk about QFT in detail, but I want to share
 2. Path Integrals
 2. Renormalisation and EFTs (effective field theories)
 2. Symmetries of spacetime: Lie groups and representation theory
+2. Symmetries of spacetime: Poincare group and its representations; Spinors
 2. Gauge theories; QED as a U(1) (Abelian) gauge theory
-3. Non-Abelian Gauge Theories: SU(2), Electroweak unification, symmetry breaking and the Higgs field
+3. Non-Abelian Gauge Theories: SU(2), Electroweak unification
+3. Superconductivity, Symmetry Breaking and the Higgs field
 4. Non-Abelian Gauge Theories: SU(3), QCD, and GUTs
 
 ## References
