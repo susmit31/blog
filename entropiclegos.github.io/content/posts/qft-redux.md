@@ -45,9 +45,7 @@ $$ \boxed{\textbf{Wick's theorem: }\text{Time-ordered product =}}\newline
 
 This enormously simplifies computations. Why? 
 
-We're often interested in computing transition amplitudes from one multiparticle state to another, which we compute with VEVs. For normal-ordered products, the annihilation operators are all lined up to the right, which means they have zero VEV. So we have one term of the time-ordered product vanishing upon computing VEVs.
-
-The other terms include all possible "contractions". What do we mean by that? Contractions represent Feynman propagators, which will be our third key result of QFTt that'll, coupled with Wick's theorem and Dyson's formula, lead us straight to Feynman diagrams. Stay tuned for the next episode to find out!
+Firstly, we're often interested in computing transition amplitudes from one multiparticle state to another, which we compute with VEVs. For normal-ordered products, the annihilation operators are all lined up to the right, which means they have zero VEV. So we have one term of the time-ordered product vanishing upon computing VEVs. And more importantly, Wick contractions convert time-evolution into operator pairings, which allows us to assign nodes and edges to the Dyson-expanded S-matrix and construct graphs representing the mathematical calculations! Put more bluntly, contractions represent Feynman propagators, which will be our third key result of QFTt that'll, coupled with Wick's theorem and Dyson's formula, lead us straight to Feynman diagrams. Stay tuned for the next episode to find out!
 
 ## What's Next?
 I'm not nearly qualified enough to talk about QFT in detail, but I want to share a big-picture overview of the following ideas in upcoming blog posts.
