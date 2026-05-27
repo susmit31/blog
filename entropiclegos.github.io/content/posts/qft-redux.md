@@ -35,10 +35,10 @@ $$
 \textbf{Dyson's formula: } U(t, t_0) = T \exp (-i \int_{t_0}^t H_I (t^{\prime}) dt^{\prime})
 $$
 
-Expansion of this exponential yields how the interaction terms influence time-evolution in successive orders of approximation.
+Expansion of this exponential yields how the interaction terms influence time-evolution in successive orders of approximation. Note, however, that all terms except the first (which is the identity) and the second (which is just the integral of the interaction Hamiltonian appropriately modified) involve time-ordering, so at second and higher orders of perturbation theory, we still haven't solved the issue of time ordering. 
 
 ## QFTt 4: Wick's Theorem
-However, our task is still quite daunting, as we don't yet have a general approach to evaluating time-ordered products. This brings us to the second key result in QFTt: Wick's theorem. 
+As we've just seen, despite considerable simplification up to first order, our task is still quite daunting, as we don't yet have a general approach to evaluating time-ordered products, which lurk still in the second and higher order perturbation terms. This brings us to the second key result in QFTt: Wick's theorem. 
 
 $$ \boxed{\textbf{Wick's theorem: }\text{Time-ordered product =}}\newline
 \boxed{\text{Normal-ordered product + all possible "contractions"}}$$
