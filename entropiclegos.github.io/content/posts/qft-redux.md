@@ -54,9 +54,9 @@ I'm not nearly qualified enough to talk about QFT in detail, but I want to share
 1. S-matrix and Feynman diagrams
 2. Renormalisation and EFTs (effective field theories)
 2. Symmetries of spacetime: Lie groups and representation theory
-2. Gauge theories; Electromagnetism as a U(1) gauge theory
-3. SU(2), Electroweak unification, symmetry breaking and the Higgs field
-4. SU(3) and QCD
+2. Gauge theories; QED as a U(1) (Abelian) gauge theory
+3. Non-Abelian Gauge Theories: SU(2), Electroweak unification, symmetry breaking and the Higgs field
+4. Non-Abelian Gauge Theories: SU(3), QCD, and GUTs
 
 ## References
 1. *David Tong*, Lecture Notes on QFT
