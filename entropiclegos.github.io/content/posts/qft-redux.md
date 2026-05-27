@@ -52,6 +52,7 @@ The other terms include all possible "contractions". What do we mean by that? Co
 ## What's Next?
 I'm not nearly qualified enough to talk about QFT in detail, but I want to share a big-picture overview of the following ideas in upcoming blog posts.
 1. S-matrix and Feynman diagrams
+2. Path Integrals
 2. Renormalisation and EFTs (effective field theories)
 2. Symmetries of spacetime: Lie groups and representation theory
 2. Gauge theories; QED as a U(1) (Abelian) gauge theory
