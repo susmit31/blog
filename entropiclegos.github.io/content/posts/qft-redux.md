@@ -40,8 +40,8 @@ Expansion of this exponential yields how the interaction terms influence time-ev
 ## QFTt 4: Wick's Theorem
 As we've just seen, despite considerable simplification up to first order, our task is still quite daunting, as we don't yet have a general approach to evaluating time-ordered products, which lurk still in the second and higher order perturbation terms. This brings us to the second key result in QFTt: Wick's theorem. 
 
-$$ \boxed{\textbf{Wick's theorem: }\text{Time-ordered product =}}\newline
-\boxed{\text{Normal-ordered product + all possible "contractions"}}$$
+$$ \boxed{\textbf{Wick's theorem: }\text{Time-ordered product = Normal-ordered}}\newline
+\boxed{\text{product + all possible pairwise "contractions"}}$$
 
 This enormously simplifies computations. Why? 
 
