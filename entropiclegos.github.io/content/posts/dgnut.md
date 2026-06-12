@@ -140,4 +140,4 @@ Remember how the connection defined straight lines? Given two points, if a line 
 Now in general relativity, this is all we ever work with, and so it's easy to come away with the misconception that the connection comes secondary to the metric. It doesn't. They're completely independent concepts. This gets clarified when you encounter Yang-Mills theories and see that the connection is one of the most important concepts in our Standard Model.
 
 ## Call it a Day
-I'm tired. I'll add stuff later if I think something up or edit if something feels off. Hope the big picture comes across as nicely as I intended. This has been born of countless hours of viewing lectures and working through materials on GR, DG, QFT, Yang-Mills and so on. I'll namedrop some of my favourites when I feel like it. G'night.
+I'm tired. I'll add stuff later if I think something up or edit if something feels off. Hope the big picture comes across as nicely as I intended. This was born of countless hours of viewing lectures and working through materials on GR, DG, QFT, Yang-Mills and so on. I'll namedrop some of my favourites when I feel like it. G'night.
