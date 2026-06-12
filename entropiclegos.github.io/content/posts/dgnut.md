@@ -97,16 +97,29 @@ $$
 \text{Mr Hardening Dough = Smooth Mfd + Connection}
 $$
 
-It's hardening, but not yet completely hardened. This partial solidification thanks to the parallel transport aparatus has three *huge* implications.
+It's hardening, but not yet completely hardened. This partial solidification thanks to the parallel transport apparatus has three *huge* implications.
 
-1. We now have a notion of *curvature*. This is why curvature is always defined on manifolds with connections, even in the absence of a metric. We parallel transport a vector on a loop and come back to the same point. If we're not left with our starting vector, the manifold is curved, by an amount proportional to the deviation.
-2. We now have a canonical notion of differentiation, called *covariant differentiation*. We simply take the difference 
+1. We now have a canonical notion of differentiation, called *covariant differentiation*. Conceptually, we simply take the difference 
 
 $$F(q) - \text{PT}_{p\to q}(F(p)) $$
  
-Where $\text{PT}_{p\to q}$ denotes parallel transporting from $p$ to $q$, for some field $F$. 
+Where $\text{PT}_{p\to q}$ denotes parallel transporting from $p$ to $q$, for some field $F$. When evaluated using the Christoffel symbols defined above, we end up with a deriative operator that looks like
 
-3. We have a notion of *straight lines* or *geodesics* on the manifold. These are lines whose tangent at all points along its length coincides with its parallel transported version.
+$$
+\nabla_\mu \equiv \partial_\mu + \Gamma_\mu
+$$
+
+where the $\Gamma_\mu$ are matrix-valued connection coefficients, one $4\times4$ matrix for each basis direction (which reduce to their familiar form once we write it out elementwise, $\Gamma^\alpha_{\boldsymbol{\beta}\sigma}$).
+
+2. We now have a notion of *curvature*. This is why curvature is always defined on manifolds with connections, even in the absence of a metric. We parallel transport a vector on a loop and come back to the same point. If we're not left with our starting vector, the manifold is curved, by an amount proportional to the deviation. The components of the curvature are most simply quantified as the commutator of the covariant derivative:
+
+$$
+F_{\mu\nu} = [\nabla_\mu, \nabla_\nu]
+$$
+
+where again, the above expression yields a matrix-valued expression due to how we've defined $\nabla_\mu$. When we take the individual components of this matrix, we get our familiar Riemann curvature tensor $R^\alpha_{\beta\mu\nu}$.
+
+3. We have a notion of *straight lines* or *geodesics* on the manifold. These are lines whose tangent at all points along its length coincides with its parallel transported version. Or succinctly, they are lines which are *autoparallel*. This, when stated through the Christoffel symbol equations, yields a *geodesic equation*.
 
 So to sum up the covariant derivative,
 1. **What we need**: Smooth manifold *with* a connection. A bare smooth manifold will no longer suffice.
