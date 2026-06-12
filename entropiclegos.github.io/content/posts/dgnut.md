@@ -119,7 +119,7 @@ $$
 
 where again, the above expression yields a matrix-valued expression due to how we've defined $\nabla_\mu$. When we take the individual components of this matrix, we get our familiar Riemann curvature tensor $R^\alpha_{\beta\mu\nu}$.
 
-3. We have a notion of *straight lines* or *geodesics* on the manifold. These are lines whose tangent at all points along its length coincides with its parallel transported version. Or succinctly, they are lines which are *autoparallel*. This, when stated through the Christoffel symbol equations, yields a *geodesic equation*.
+3. We have a notion of *straight lines* or *geodesics* on the manifold. These are lines whose tangent at all points along their length coincide with their parallel transported version. Or succinctly, they are lines which are *autoparallel*. This, when stated through the Christoffel symbol equations, yields a *geodesic equation*.
 
 So to sum up the covariant derivative,
 1. **What we need**: Smooth manifold *with* a connection. A bare smooth manifold will no longer suffice.
