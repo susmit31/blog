@@ -60,7 +60,7 @@ With the parametrising integral curves projected on Mr Dough, we can define a *f
 So how do we take the Lie derivative of a vector field $v$?
 
 1. **What we need**: An auxiliary vector field $u$, that parametrises the manifold.
-2. **What we do**: Let $v$ flow infinitesimally along the integral curves of $u$ to generate a Lie-dragged version of $u$. Take the difference between the Lie-dragged field and $v$ at the point of interest. That is the derivative of $v$ along the flow lines of $u$, $\mathcal{L}_u v$.
+2. **What we do**: Let $v$ flow infinitesimally along the integral curves of $u$ to generate a Lie-dragged version of $v$. Take the difference between the Lie-dragged field and $v$ at the point of interest. That is the derivative of $v$ along the flow lines of $u$, $\mathcal{L}_u v$.
 3. **What we get**: A *directional* derivative
 
 Note that Mr Dough is still that cute-as-a-button, malleable-as-hell piece of gooey deliciousness that we had before. We haven't hardened him up, we haven't made a cookie out of him. We can choose the parametrising field as per our need and redo the whole shtick and "malleably differentiate". It's our same old smooth manifold without any additional structure. This is why, strictly speaking, Lie derivatives belong to differential *topology*, rather than differential *geometry*, since we don't need any metric.
@@ -72,7 +72,7 @@ What if we don't want to bring that in? Can we still differentiate? (Playing "*T
 ## Differentiating on a Manifold, "In a Cave, With a Box of Scraps" - The Exterior Derivative
 This is like the Mark-I Iron Man suit - not the most aesthetically pleasing, but it gets the bare minimum job done best utilising what it has. I assume you already know about forms and Stokes' theorem. If you do, you also know how the exterior derivative is defined. Most likely you're saying either "it's the only operation definable on forms that preserves antisymmetry and the Leibniz rule" or "it's just taking an antisymmetric componentwise partial derivative". They would be correct computationally, but they completely bypass the proper geometric picture it tries to convey.
 
-The right picture to have in mind is in terms of Stokes' theorem. The exterior derivative tells us to look around the point in question, and sum up the values of the field on the faces of an infinitesimal parallelepiped around that point. Dividing by the volume of the parallelepiped, we get a notion of how the field is changing around the point in question. Recall that our familiar operations from vector calculus of gradient, divergence, and curl all either directly or through Hodge duality are manifestations of exterior differentiation. The gradient is, in fact, a case where both the Lie derivative and the exterior derivative answer the exact same question, and so there's no surprise that the gradient of a scalar field is the same as its Lie derivative. Divergence captures a notion of diverging from (or converging to) the point in question, while curl captures a notion of rotation around the point in question. While the exact amount of diverging or rotating would change with diffeomorphisms, the fact that a field diverges (or converges) or rotates (or not) doesn't change with such transformations. As you can see, the exterior derivative captures diffeomorphism-invariant properties of change of the field by taking a 360-degree view around the point.
+The right picture to have in mind is in terms of Stokes' theorem. The exterior derivative tells us to look around the point in question, and sum up the values of the field on the faces of an infinitesimal parallelepiped around that point. Dividing by the volume of the parallelepiped, we get a notion of how the field is changing around the point in question. Recall that our familiar operations from vector calculus of gradient, divergence, and curl all either directly or through Hodge duality are manifestations of exterior differentiation. The gradient is, in fact, a case where both the Lie derivative and the exterior derivative answer the exact same question, and so there's no surprise that the gradient of a scalar field evaluated at some vector field is the same as its Lie derivative along that field. Divergence captures a notion of diverging from (or converging to) the point in question, while curl captures a notion of rotation around the point in question. While the exact amount of diverging or rotating would change with diffeomorphisms, the fact that a field diverges (or converges) or rotates (or not) doesn't change with such transformations. As you can see, the exterior derivative captures diffeomorphism-invariant properties of change of the field by taking a 360-degree view around the point.
 
 So in summary, for exterior differentiation:
 
@@ -89,7 +89,7 @@ Well, the exterior derivative no longer fits the bill, for obvious reasons, sinc
 ## Putting the Dough in the Oven
 Once again, eyes on the prize - what are we looking to answer right now? We want to take any field defined on the manifold, go to any point on the manifold, and then differentiate the field in the direction of our choosing. For this, we need something to tell us how to compare vectors from two different tangent spaces - those of neighbouring points. Let's say we're going from point $p$ to point $q$. We need something to tell us that as we transport ourselves from $p$ to $q$, $v \in T_pM$ is to be identified with some $v' \in T_qM$. We say that $v'$ is the *parallel transported* version of $v$ as we go from $T_pM$ to $T_qM$.
 
-Note that parallel transport is *not* diffeomorphism-invariant. As Mr Dough twists and bends, this *canonical* scheme of forming a *connection* between neighbouring tangent spaces changes. As such, this canonical scheme of parallel transporting is called a *connection*. Imagine Mr Dough endowed with some parallel transport structure and bend and twist him in different ways, you see that the parallel transported vector from $p$ to $q$ rocks and rolls with diffeomorphisms. There's no way to define parallel transport which is preserved under diffeomorphisms.
+Note that parallel transport is *not* diffeomorphism-invariant. As Mr Dough twists and bends, this *canonical* scheme of forming a *connection* between neighbouring tangent spaces changes. As such, this canonical scheme of parallel transporting is called a *connection*. Imagine Mr Dough endowed with some parallel transport structure and bend and twist him in different ways, you see that the parallel transported vector from $p$ to $q$ rocks and rolls with diffeomorphisms. Anyway, in practice, parallel transporting any vector can be done once we have specified how to parallel transport each of the basis vectors in the direction of each basis vector, so we have an expression like $\nabla_{\partial_\alpha}\partial_\beta \equiv \Gamma^\mu_{\alpha\beta}\partial_\mu$, where the coefficients $\Gamma^\mu_{\alpha\beta}$ are called the *connection coefficients* or *Christoffel symbols*.
 
 Once we've settled on a way to define parallel transport, our Mr Dough no longer remains. He's now become a rough, tough chunk of dough that's still a little malleable, but the malleability is constrained by the connection. He's now Mr Hardening Dough. He's not yet Mr Cookie, but he's no longer Mr Dough, too.
 
@@ -100,17 +100,31 @@ $$
 It's hardening, but not yet completely hardened. This partial solidification thanks to the parallel transport aparatus has three *huge* implications.
 
 1. We now have a notion of *curvature*. This is why curvature is always defined on manifolds with connections, even in the absence of a metric. We parallel transport a vector on a loop and come back to the same point. If we're not left with our starting vector, the manifold is curved, by an amount proportional to the deviation.
-2. We now have a canonical notion of differentiation, called *covariant differentiation*. We simply take the difference $F(q) - \text{PT}_{p\to q}(F(p))$. Where 
+2. We now have a canonical notion of differentiation, called *covariant differentiation*. We simply take the difference 
 
-$$\text{PT}_{p\to q}$$ denotes parallel transporting from $p$ to $q$.
-3. We have a notion of *straight lines* on the manifold. These are lines whose tangent at all points along its length coincides with its parallel transported version.
+$$F(q) - \text{PT}_{p\to q}(F(p)) $$
+ 
+Where $\text{PT}_{p\to q}$ denotes parallel transporting from $p$ to $q$, for some field $F$. 
 
-This ends our tour of the derivative zoo. So far, we've repeatedly emphasised the fact that our ideas are completely metric-independent. We've been working on a manifold where we don't care how to measure angles between (and thus lengths of) vectors. We may or may not know how to, the ideas discussed so far just don't care for the most part. The partial solidification done by the connection is fine, but it cannot equip the manifold with a completely rigid structure.
+3. We have a notion of *straight lines* or *geodesics* on the manifold. These are lines whose tangent at all points along its length coincides with its parallel transported version.
+
+So to sum up the covariant derivative,
+1. **What we need**: Smooth manifold *with* a connection. A bare smooth manifold will no longer suffice.
+2. **What we do**: Use the Christoffel symbols defined above and differentiate. What you end up with is an expression like $\nabla_u v = u^\mu (\partial_\mu v^\nu + \Gamma^\nu_{\mu\beta}v^\beta)$
+2. **What we get**: Covariant derivatives, curvature tensor, geodesics.
+
+This ends our tour of the derivative zoo. We're ready to write down the answer to the question we started with:
+
+> The reason differential geometry contains several derivatives is that "taking differences at nearby points" is not a well-defined operation on a general manifold. Each derivative solves this problem differently, by supplying a different notion of comparison.
+
+ So far, we've repeatedly emphasised the fact that our ideas are completely metric-independent. We've been working on a manifold where we don't care how to measure angles between (and thus lengths of) vectors. We may or may not know how to, the ideas discussed so far just don't care for the most part. The partial solidification done by the connection is fine, but it cannot equip the manifold with a completely rigid structure.
 
 ## Mr Dough becomes Mr Cookie: The Metric as the Oven
 The metric completely solidifies Mr Dough. Irrespective of a connection being there, the metric also *induces* a preferred connection, called the *Levi-Civita connection*. How does it do so?
 
-Remember how the connection defined straight lines? Given two points, if a line joining them is such that the tangent is *autoparallelly transported*, it is straight under that connection. Now the metric gives us a way to measure distances, and that means we can measure all the lines joining any two points. And we generally expect that the straight line joining the two points will also be the shortest one (except for pseudo-Riemannian manifolds, where we expect the converse). So a metric naturally picks out a notion of straightness, which we can use to define a canonical connection - the Levi-Civita connection.
+Remember how the connection defined straight lines? Given two points, if a line joining them is such that the tangent is *autoparallelly transported*, it is straight under that connection. Now the metric gives us a way to measure distances, and that means we can measure all the lines joining any two points. And we generally expect that the straight line joining the two points will also be the shortest one (except for pseudo-Riemannian manifolds, where we expect the converse). So a metric naturally picks out a notion of straightness, which we can use to define a canonical connection - the Levi-Civita connection. 
+
+Now in general relativity, this is all we ever work with, and so it's easy to come away with the misconception that the connection comes secondary to the metric. It doesn't. They're completely independent concepts. This gets clarified when you encounter Yang-Mills theories and see that the connection is one of the most important concepts in our Standard Model.
 
 ## Call it a Day
 I'm tired. I'll add stuff later if I think something up or edit if something feels off. Hope the big picture comes across as nicely as I intended. This has been borne of countless hours of viewing lectures and working through materials on GR, DG, QFT, Yang-Mills and so on. I'll namedrop some of my favourites when I feel like it. G'night.
