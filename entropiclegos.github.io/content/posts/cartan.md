@@ -53,7 +53,7 @@ If you recall your elementary school GR, you've already noted the differences an
 2. **Metric**: Newton-Cartan spacetime has no non-degenerate metric that is compatible with the connection, and no unique connection satisfying metric compatibility. Time is measured via a temporal 1-form, spatial distances via a spatial metric of nonempty kernel. On the contrary, Einsteinian spacetime has a unique torsion-free connection preserving lengths during parallel transport ($\nabla g =0$), the so-called Levi-Civita connection.
 3. **Causal structure**: Absolute simultaneity fibres determined by $\tau_a dx^a = 0$ determine the causal structure of Newton-Cartan spacetime, with no absolute speed limit, while the causal structure of Einsteinian spacetime is determined by its null cones $g_{ab} dx^a dx^b = 0$, with speed limit $c$.
 4. **Field equation**:
-a. Newton-Cartan: $R_{\mu\nu} = 4\pi G \rho \, \tau_\mu \tau_\nu$
+a. Newton-Cartan: $R_{\mu\nu} = 4\pi G \rho \tau_\mu \tau_\nu$
 b. Einstein: $R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$
 
 ## Conclusion
