@@ -1,5 +1,5 @@
 +++
-title = 'In Another Dimension I would Be Yours: Navier-Stokes Existence, Uniqueness and Regularity in 2D'
+title = 'In Another Dimension I Would Be Yours: Navier-Stokes Existence, Uniqueness and Regularity in 2D'
 date = 2026-09-29T20:42:37+06:00
 tags = ['mathematical-physics', 'maths', 'millennium-prize', 'differential-equations']
 draft = false
