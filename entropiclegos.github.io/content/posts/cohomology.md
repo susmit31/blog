@@ -156,7 +156,7 @@ Previously, we detected k-dimensional holes of $X$ using k-chains, which natural
 Which cycles $M$ describe boundaries of higher dimensional objects $W$? It is precisely those that can be written as $M = \partial W$, where $W$ is a (k+1)-chain. Again, to help us translate to forms, we'd _better call Stokes_:
 
 $$
-\int_M \omega = \int_{\partial M} \lambda = \int{\partial^2 W} \lambda = 0
+\int_M \omega = \int_{\partial M} \lambda = \int_{\partial^2 W} \lambda = 0
 $$
 
 where $\lambda$ is a (k-1)-form such that $\omega = d\lambda$, and the last equality follows since $\partial^2 W = 0$ for any chain $W$. In other words, $\omega$ is a cochain that's dual to the chain $M$ that is a boundary. Such forms $\omega := d\lambda$ should then be called, appropriately, *coboundaries*. But since they, in forms-space, represent *exact* differentials, they are called exact. So anyway, we see that the image of $\partial_{k+1}$ (which includes $M$ in the above context) corresponds with the image of $d_{k-1}$, i.e.
