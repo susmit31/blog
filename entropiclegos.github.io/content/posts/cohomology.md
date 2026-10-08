@@ -180,7 +180,11 @@ $$
 \star\ker(\partial_k) = \ker(d_k)
 $$
 
-where $d_k$ denotes the exterior derivative acting on k-forms (to return a (k+1)-form).
+where $d_k$ denotes the exterior derivative acting on k-forms (to return a (k+1)-form). Finally, we can make our equivalence classes for both chains and forms explicit by writing down (and verifying) the following:
+
+$$
+\langle M+\partial N, \omega+d\eta\rangle = \langle M , \omega
+$$
 
 ## Lo and Behold! Your k-th de Rham Cohomology Group!
 With all the ingredients in place, we now are well prepared to translate our k-th homology group into the language of differential forms. The k-th de Rham cohomology group of a manifold $X$, labelled $H^k_{dR}(X)$, is the dual vector space of the k-th homology group of $X$, i.e.,
