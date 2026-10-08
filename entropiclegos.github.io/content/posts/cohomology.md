@@ -183,7 +183,7 @@ $$
 where $d_k$ denotes the exterior derivative acting on k-forms (to return a (k+1)-form). Finally, we can make our equivalence classes for both chains and forms explicit by writing down (and verifying) the following:
 
 $$
-\langle M+\partial N, \omega+d\eta\rangle = \langle M , \omega
+\langle M+\partial N, \omega+d\eta\rangle = \langle M , \omega\rangle
 $$
 
 ## Lo and Behold! Your k-th de Rham Cohomology Group!
