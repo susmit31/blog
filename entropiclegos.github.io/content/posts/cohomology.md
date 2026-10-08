@@ -223,7 +223,7 @@ Here's a paragraph from Prof. David Tong's otherwise excellent set of lecture no
 
 ![tong-betti](../../tong-betti.jpeg)
 
-As it stands, you'd be scratching your head all all day and still fail to compute a single Betti number even for the simplests of spaces, let alone the Euler characteristic. Also, isn't the Euler characteristic supposed to look like $\chi = V-E+F$? But now that you know that cohomology groups are simply dual spaces of homology groups, you immediately see that the $p$-th Betti number just captures the number of $p$-dimensional holes in $X$! So using our results from homology computations, we have
+As it stands, you'd be scratching your head all all day and still fail to compute a single Betti number even for the simplests of spaces, let alone the Euler characteristic. Even if you could somehow work out the numbers, would you bet your life on it? Also, isn't the Euler characteristic supposed to look like $\chi = V-E+F$? But now that you know that cohomology groups are simply dual spaces of homology groups, you immediately see that the $p$-th Betti number just captures the number of $p$-dimensional holes in $X$! So using our results from homology computations, we have
 $$
 B_0(X) = \text{\\# connected components of }X,\newline
 B_1(X) = \text{\\#1-D holes in }X,\newline
