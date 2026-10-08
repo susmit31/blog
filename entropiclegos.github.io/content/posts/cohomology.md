@@ -36,7 +36,7 @@ An astute reader will probably propose something like the following. Take all po
 
 But note that we've been visualising things from the perspective of a higher dimensional space. In our above figure, we see that gap as merely part of $R^2$ that is inaccessible perhaps to the inhabitants of that space, but not to us. How does an inhabitant of the space detect that there is such a "gap", if he cannot ever even access such points in the first place? 
 
-![](../../boundary.jpg) 
+![](../../loops.jpg) 
 
 Well, let's look at this new figure and see if we can figure a way out of this predicament. We show two different loops. In one instance, they enclose the hole, in the other, they don't. This suggests that the inhabitants may have the following idea: a "gap" is identified by looking at a closed loop that isn't the boundary of anything. The figures outside of the holes labelled 1 and 1' are areas bounded by closed loops and can, for example, be painted in a different colour by say a painter in this space Mr. 2dolf. However, as Mr. 2dolf will swear on his life to testify, the loops labelled 2 and 2' do not enclose anything in such a way, and their "insides" cannot be painted simply because they don't have none! They are *closed loops that aren't the boundaries of anything in the space* (up to homotopy). Now that we have a clear idea about what we mean by a "gap", we restate our simple plan for identifying holes in spaces:
 
@@ -53,7 +53,7 @@ For our purposes, we'll loosely define n-chains as (integer) linear combinations
 ### Step 2: $\partial_k$
 Now we introduce the boundary operator for n-chains, $\partial_k: C_k \to C_{k-1}$, which eats a k-chain and spits out its ((k-1)-dimensional) boundary. For example, in the following figure, the 1-chain $L$ has boundary $\partial L := b - a$, whereas the 2-chain labelled $T$ has boundary $\partial T := x + y +z$. (Note that for assigning signs to the boundary elements, we have to choose a particular orientation for the chains)
 
-![](../../xxx.jpg)
+![](../../boundary.jpg)
 
 Now note something very important. $\partial T$ is a *closed* chain, i.e. a cycle. So we have a very important criterion defining cycles or closed chains in general:
 
