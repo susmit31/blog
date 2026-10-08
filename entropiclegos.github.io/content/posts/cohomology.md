@@ -166,7 +166,7 @@ $$
 $$
 
 ### Which Forms Correspond to Cycles or Closed Chains?
-Take the forms $\omega$ such that $d\omega = 0$ throughout some chain $N$. Since $d^2 = 0$, the exact forms of the previous paragraph are also within this set. Let's call them NED forms, for null-exterior-derivative. We have
+Take the forms $\omega$ such that $d\omega = 0$ throughout $X$. Since $d^2 = 0$, the exact forms of the previous paragraph are also within this set. Let's call them NED forms, for null-exterior-derivative. We have
 
 $$
 \int_{M+\partial N} \omega = \int_M \omega + \int_{\partial N} \omega = \int_M \omega + \int_N d\omega = \int_M \omega
