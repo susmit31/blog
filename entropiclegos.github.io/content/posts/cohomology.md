@@ -166,22 +166,13 @@ $$
 $$
 
 ### Which Forms Correspond to Cycles or Closed Chains?
-Recall the mathematical criterion we set for detecting cycles $M \subset X$:
+Take the forms $\omega$ such that $d\omega = 0$ throughout some chain $N$. Since $d^2 = 0$, the exact forms of the previous paragraph are also within this set. Let's call them NED forms, for null-exterior-derivative. We have
+
 $$
-\partial M = 0
+\int_{M+\partial N} \omega = \int_M \omega + \int_{\partial N} \omega = \int_M \omega + \int_N d\omega = \int_M \omega
 $$
 
-To see which forms $\omega$ are dual to these cycles, we invoke our handy old friend Stokes:
-$$
-\int_{\partial M} \omega = \int_M d\omega,
-$$
-
-but since $\partial M = 0$,
-$$
-\int_M d\omega = 0.
-$$
-
-This means that the forms $\omega$ such that $d\omega = 0$ throughout $M$ will be dual to the cycle $M$. In other words, they are **cocycles**, or, wait for it, **co-(closed chains)**. *This is why a form which has a vanishing exterior derivative is called "closed"*, as they imply that they're cochains to a closed submanifold! If you're like me, you've looked at every GR book ever and wondered why "closed" forms are called so. The "exact" forms are exact differentials so it makes sense, but there's no logical explanation behind calling closed forms "closed". Now you know!
+so a NED form can't distinguish cycles that differ by a boundary. This is important, since in forming the homology equivalence classes of cycles, we modded them out exactly by these boundaries -- so this means integration of closed forms give the same number for different members of the same homology class. This in turn means we can have a well-defined notion of duality between cycles upto homology and these NED forms. In other words, they are **cocycles**, or, wait for it, **co-(closed chains)**. *This is why a form which has a vanishing exterior derivative is called "closed"*! If you're like me, you've looked at every GR book ever and wondered why "closed" forms are called so. The "exact" forms are exact differentials so it makes sense, but there's no logical explanation behind calling closed forms "closed". Now you know!
 
 So what we've found is that k-forms which differentiate to zero are dual to the k-cycles, i.e.
 
