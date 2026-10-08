@@ -94,7 +94,7 @@ Or using much more economical language:
 
 $$
 \text{k-th homology group of X, }\newline
-\boxed{H_k(X)\equiv \ker(\partial_n) / \text{im}(\partial_{n+1})} 
+\boxed{H_k(X)\equiv \ker(\partial_k) / \text{im}(\partial_{k+1})} 
 $$
 
 And what is the number of holes in our space? It's clear that
@@ -119,7 +119,7 @@ The argument proceeds identically to example 2a, so we obviously have $\boxed{H_
 This problem looks like example 2b, but in fact is isomorphic to example 1. In fact, I'll tell you the general result right now: $\boxed{H_n(S^n) \simeq \Z}$
 
 ### Example 3: $H_1(T^2)$
-$\boxed{H_1(T^2) \simeq \Z}
+$\boxed{H_1(T^2) \simeq \Z^2}
 
 ### Example 4: $H_0(X)$ for arbitrary $X$
 This is not a trick question! There indeed is a zeroth homology group for any topological space. What does it mean to have holes with zero-dimensional boundaries? Let's carefully reason through our original definition then. $H_0 (X) = \ker\partial_0 / \text{im}\partial_1$. Start with the "numerator" in this quotient. We are to take 0-chains with no boundaries first. What does it mean? Well, every point in the space is a 0-chain, and no point has any boundary whatever. So it's basically the entirety of $X$. What about the "denominator"? It says to take every 0-chain that is the boundary of some 1-chain, and mod $X$ out by their equivalence class. This would simply be the points at the "edges" of $X$. This means it simply measures *the number of connected components $X$ has!* Here's an exercise for you. Try reasoning through this sketch for, say, $X = \large\sqcup\normalsize_{i=1}^n D^2$, where $\sqcup$ is used to denote a disjoint union.
